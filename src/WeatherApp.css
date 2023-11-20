@@ -3,12 +3,26 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	background-image: url('https://images5.alphacoders.com/760/760401.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.general {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .container {
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px;
+	background: #ccc;
+	border-radius: 2rem;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
